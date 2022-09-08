@@ -1,0 +1,1 @@
+db.produtos.find({ vendidos: { $gt: 130 } }, { _id: 0, nome: 1, vendidos: 1 });
